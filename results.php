@@ -1,8 +1,6 @@
 <?php
-include("includes/config.php");
-include("includes/db.php");
 
-$query = "SELECT * FROM categories"
+
 
 ?>
 <!doctype html>
@@ -116,7 +114,12 @@ $query = "SELECT * FROM categories"
     <div class="col-md-8 blog-main">
       <h3 class="pb-4 mb-4 font-italic border-bottom">
         From the Firehose
+
       </h3>
+      <br>
+      <blockquote>Results</blockquote>
+
+      
 
       <div class="blog-post">
         <h2 class="blog-post-title">Sample blog post</h2>
