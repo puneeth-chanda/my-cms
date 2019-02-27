@@ -2,8 +2,8 @@
 include("includes/config.php");
 include("includes/db.php");
 
-$query = "SELECT * FROM categories"
-
+$query = "SELECT * FROM categories";
+$categories = $db->query($query);
 ?>
 <!doctype html>
 <html lang="en">
@@ -63,11 +63,11 @@ $query = "SELECT * FROM categories"
 
   <div class="nav-scroller py-1 mb-2">
     <nav class="nav d-flex justify-content-between">
-      <a class="p-2 text-muted" href="#">Technology</a>
-      <a class="p-2 text-muted" href="#">Travel</a>
-      <a class="p-2 text-muted" href="#">Creation</a>
-      <a class="p-2 text-muted" href="#">Culture</a>
-      <a class="p-2 text-muted" href="#">Philosophy</a>
+      <?php if($categories->num_rows > 0){
+        while($row = $categories->fetch_assoc()){
+          ?>
+        <a class="p-2 text-muted" href="#"><?php echo $row['text'];?></a>
+        <?php }} ?>
     </nav>
   </div>
 
