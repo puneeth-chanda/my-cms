@@ -47,7 +47,7 @@ https://github.com/puneeth2001/my-cms/blob/master/Screenshot%20from%202019-03-01
 ## Built With
 
 * [PHP](http://www.php.net/) - PHP
-* [Maven](https://maven.apache.org/) - Dependency Management
+* [apache](https://httpd.apache.org/) - Dependency Management
 * [mysql](https://www.mysql.com/) -MySQL
 
 
