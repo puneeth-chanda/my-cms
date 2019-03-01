@@ -42,8 +42,7 @@ on opening the application you can see some text boxes where you can enter the d
 
 ## Screenshots
 
-https://github.com/puneeth2001/my-cms/blob/master/Screenshot%20from%202019-03-01%2023-45-26.png
-
+![img](https://github.com/puneeth2001/my-cms/blob/master/Screenshot%20from%202019-03-01%2023-45-26.png)
 ## Built With
 
 * [PHP](http://www.php.net/) - PHP
